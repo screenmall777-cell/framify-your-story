@@ -17,25 +17,37 @@ const Gallery = () => {
     <section className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          Our Collection
+          Inspiration Wall
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           From motivation to memories, every frame tells a story
         </p>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-6xl mx-auto mb-12">
           {frames.map((frame, index) => (
             <div
               key={index}
-              className={`${frame.span} overflow-hidden group cursor-pointer`}
+              className={`${frame.span} overflow-hidden group cursor-pointer relative rounded-sm`}
             >
               <img
                 src={frame.src}
                 alt={frame.alt}
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                className="w-full h-full object-cover transition-all duration-500 hover:scale-110"
               />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-300" />
             </div>
           ))}
+        </div>
+        
+        <div className="text-center">
+          <a
+            href="https://www.instagram.com/framified.store/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-lg font-medium hover:text-gold transition-colors duration-300"
+          >
+            See More on Instagram →
+          </a>
         </div>
       </div>
     </section>

@@ -32,7 +32,7 @@ const FrameSelector = () => {
     <section id="frame-selector" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          Choose Your Frame Size
+          Customize Your Frame
         </h2>
         <p className="text-center text-muted-foreground mb-12 text-lg">
           Select your specifications and get an instant quote

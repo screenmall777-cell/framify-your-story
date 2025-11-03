@@ -25,12 +25,12 @@ const Hero = () => {
           <img src={logo} alt="Framified" className="h-24 md:h-32 animate-fade-in" />
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          Frame Your Story in Style
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in tracking-tight">
+          Frame Your Story.
         </h1>
         
-        <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light animate-fade-in">
-          Premium Custom Frames for Every Moment — from motivation to memories
+        <p className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto font-light animate-fade-in leading-relaxed">
+          From your proudest moments to your daily motivation — crafted with precision and passion.
         </p>
         
         <Button 

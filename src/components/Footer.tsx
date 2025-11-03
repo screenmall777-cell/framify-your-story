@@ -34,7 +34,7 @@ const Footer = () => {
         
         <div className="text-center mt-8 pt-8 border-t border-primary-foreground/20">
           <p className="text-sm opacity-80">
-            © 2025 Framified.store | Crafted with ❤️ in India
+            © 2025 Framified.store | Crafted with ❤️ in India | +91 9488108394
           </p>
         </div>
       </div>
